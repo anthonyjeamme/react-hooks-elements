@@ -1,0 +1,15 @@
+/* add css styles here (optional) */
+
+$primary: #FF0000;
+
+.test {
+    display: inline-block;
+    margin: 2em auto;
+    border: 2px solid #000;
+    font-size: 2em;
+}
+
+button {
+    padding: 10px;
+    color: $primary
+}

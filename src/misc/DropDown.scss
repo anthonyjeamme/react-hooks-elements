@@ -1,0 +1,22 @@
+.dropdown{
+
+	.dropdown-list{
+		display:none;
+	}
+
+	&.active{
+		.dropdown-list{
+			display: block;
+		}
+	}
+
+	&.hoverable{
+
+		&:hover{
+				
+			.dropdown-list{
+				display: block;
+			}
+		}
+	}
+}
