@@ -12,15 +12,22 @@ npm install --save react-hooks-elements
 
 ## Usage
 
+	Ecriture de la documentation en cours
+
 ```jsx
 import React, { Component } from 'react'
 
-import MyComponent from 'react-hooks-elements'
+import { Button } from 'react-hooks-elements'
 
 class Example extends Component {
+
+  const handleClick = () => {
+	  console.log('hello world')
+  }
+
   render () {
     return (
-      <MyComponent />
+      <Button handleClick={handleClick}>Click</Button>
     )
   }
 }
